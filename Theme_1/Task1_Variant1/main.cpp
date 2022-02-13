@@ -63,7 +63,7 @@ auto Find_AverageAgeOfAll()
 }
 
 
-//* Main */
+//* Main *//
 int main()
 {
 	person[0] = Person();

@@ -1,7 +1,7 @@
 /**
  * @file main.cpp
  * @author DM
- * @brief Task_1 Variant_1
+ * @brief Task_2 Variant_1
  * @version 0.1
  * @date 2022-02-10
  * 
@@ -15,7 +15,7 @@
 #include <string>
 
 
-//* Main */
+//* Main *//
 int main()
 {
 	/**
