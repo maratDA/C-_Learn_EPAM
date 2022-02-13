@@ -14,11 +14,19 @@
 
 
 //* Class members *//
+/**
+ * @brief This class storing information about one person
+ * 
+ */
 Person::Person() 
 {
 }
 
 	//* Public *//
+	/**
+	 * @brief Adding information about one person to the class
+	 * 
+	 */
 	void Person::Add( std::string family_name, \
 			  std::string name, \
 			  std::string father_name, \
@@ -33,16 +41,30 @@ Person::Person()
 		_rating       = rating;
 	}
 	
+	/**
+	 * @brief Returning age of person
+	 * 
+	 * @return unsigned int 
+	 */
 	unsigned int Person::Age_Get()
 	{
 		return _age;
 	}
 
+	/**
+	 * @brief Returning average rating of person
+	 * 
+	 * @return unsigned int 
+	 */
 	unsigned int Person::AverageRating_Get()
 	{
 		return _rating;
 	}
 
+	/**
+	 * @brief Print information about person
+	 * 
+	 */
 	void Person::InfoAboutPerson_Print()
 	{
 		std::cout << (" Name: " + 
